@@ -1,0 +1,62 @@
+PODS:
+  - Nimble (8.0.2)
+  - Quick (2.1.0)
+  - Realm (3.17.1):
+    - Realm/Headers (= 3.17.1)
+  - Realm/Headers (3.17.1)
+  - RealmSwift (3.17.1):
+    - Realm (= 3.17.1)
+  - RxBlocking (5.0.0):
+    - RxSwift (~> 5)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRealm (1.0.0):
+    - RealmSwift (~> 3.14)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SnapKit (5.0.0)
+  - SwiftyTesseract (2.2.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - RxBlocking
+  - RxCocoa
+  - RxRealm
+  - RxSwift
+  - SnapKit
+  - SwiftyTesseract
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+    - Realm
+    - RealmSwift
+    - RxBlocking
+    - RxCocoa
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftyTesseract
+
+SPEC CHECKSUMS:
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  Realm: c204f1a890f07dea43b14132a6aad118c054b8f2
+  RealmSwift: 4d3c9233544b9cd08a8913e0872b9038eb99b054
+  RxBlocking: c67185d26498ea3cbe3e121917c3c16739e43123
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRealm: 1e81dcfca1fb50c3e9b3e1f8102bc875c5156a2e
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftyTesseract: 44a8f4b2b7e5f22b997919f935261d22d28a4917
+
+PODFILE CHECKSUM: f81a3f41e6c2cbd189851431b4f9be1b385b8422
+
+COCOAPODS: 1.7.4

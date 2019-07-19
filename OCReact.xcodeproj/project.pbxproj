@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1CA02A22E0E7EA00B40FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA02922E0E7EA00B40FDB /* AppDelegate.swift */; };
+		4C1CA03122E0E7EC00B40FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1CA03022E0E7EC00B40FDB /* Assets.xcassets */; };
+		4C1CA03422E0E7EC00B40FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1CA03222E0E7EC00B40FDB /* LaunchScreen.storyboard */; };
+		4C1CA03F22E0E7EC00B40FDB /* OCReactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA03E22E0E7EC00B40FDB /* OCReactTests.swift */; };
+		4C1CA05022E0E8C800B40FDB /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA04F22E0E8C800B40FDB /* DatabaseService.swift */; };
+		4C1CA05222E0E8FA00B40FDB /* ScanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA05122E0E8FA00B40FDB /* ScanListViewController.swift */; };
+		4C1CA05422E0E90300B40FDB /* ScanListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA05322E0E90300B40FDB /* ScanListViewModel.swift */; };
+		4C1CA05E22E0E99300B40FDB /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA05D22E0E99300B40FDB /* Scan.swift */; };
+		4C1CA06022E0EB9C00B40FDB /* Tessereact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA05F22E0EB9C00B40FDB /* Tessereact.swift */; };
+		4C1CA06222E0F49900B40FDB /* TextRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA06122E0F49900B40FDB /* TextRecognitionService.swift */; };
+		4C1CA06422E0F5BE00B40FDB /* TextRecognitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA06322E0F5BE00B40FDB /* TextRecognitionProtocol.swift */; };
+		4C1CA06622E0F60A00B40FDB /* RecognitionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA06522E0F60A00B40FDB /* RecognitionError.swift */; };
+		4C1CA06822E0F9D700B40FDB /* ScanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA06722E0F9D700B40FDB /* ScanModel.swift */; };
+		4C1CA06A22E0FB8900B40FDB /* ScanModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA06922E0FB8900B40FDB /* ScanModelProtocol.swift */; };
+		4C1CA06C22E0FD6100B40FDB /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA06B22E0FD6100B40FDB /* LocalDatabase.swift */; };
+		4C1CA06E22E0FD7900B40FDB /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA06D22E0FD7900B40FDB /* DatabaseProtocol.swift */; };
+		4C1CA07222E0FF9800B40FDB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA07122E0FF9800B40FDB /* Service.swift */; };
+		4C1CA07422E1103000B40FDB /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA07322E1103000B40FDB /* MockService.swift */; };
+		4C1CA07A22E1938A00B40FDB /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 4C1CA07922E1938A00B40FDB /* tessdata */; };
+		4C1CA07C22E1955000B40FDB /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA07B22E1955000B40FDB /* UIImage+Extensions.swift */; };
+		4C1CA07E22E19C1800B40FDB /* Realm+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA07D22E19C1800B40FDB /* Realm+Extensions.swift */; };
+		4C1CA08022E19DD900B40FDB /* Tesseract+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA07F22E19DD900B40FDB /* Tesseract+Extensions.swift */; };
+		4C1CA08222E19F3900B40FDB /* MockDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA08122E19F3900B40FDB /* MockDatabase.swift */; };
+		4C1CA08422E19F4300B40FDB /* MockTessereact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA08322E19F4300B40FDB /* MockTessereact.swift */; };
+		79C1D8959AD1DE3B1D03F30D /* Pods_OCReactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C95B1ADCF138F0C567FA5A /* Pods_OCReactTests.framework */; };
+		C75A52830DF14F9CD55ADB41 /* Pods_OCReact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F9B36C2846C095F83D745D /* Pods_OCReact.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1CA03B22E0E7EC00B40FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1CA01E22E0E7EA00B40FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1CA02522E0E7EA00B40FDB;
+			remoteInfo = OCReact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F9B36C2846C095F83D745D /* Pods_OCReact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCReact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C04E236464723AC555A8DB5 /* Pods-OCReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCReact.debug.xcconfig"; path = "Target Support Files/Pods-OCReact/Pods-OCReact.debug.xcconfig"; sourceTree = "<group>"; };
+		340669D76AB90DB017BB3AC3 /* Pods-OCReactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCReactTests.release.xcconfig"; path = "Target Support Files/Pods-OCReactTests/Pods-OCReactTests.release.xcconfig"; sourceTree = "<group>"; };
+		420632AA7419E220AFEA1B1F /* Pods-OCReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCReact.release.xcconfig"; path = "Target Support Files/Pods-OCReact/Pods-OCReact.release.xcconfig"; sourceTree = "<group>"; };
+		4C1CA02622E0E7EA00B40FDB /* OCReact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCReact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1CA02922E0E7EA00B40FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C1CA03022E0E7EC00B40FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1CA03322E0E7EC00B40FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C1CA03522E0E7EC00B40FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1CA03A22E0E7EC00B40FDB /* OCReactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCReactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1CA03E22E0E7EC00B40FDB /* OCReactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCReactTests.swift; sourceTree = "<group>"; };
+		4C1CA04022E0E7EC00B40FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1CA04F22E0E8C800B40FDB /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		4C1CA05122E0E8FA00B40FDB /* ScanListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListViewController.swift; sourceTree = "<group>"; };
+		4C1CA05322E0E90300B40FDB /* ScanListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListViewModel.swift; sourceTree = "<group>"; };
+		4C1CA05D22E0E99300B40FDB /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
+		4C1CA05F22E0EB9C00B40FDB /* Tessereact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tessereact.swift; sourceTree = "<group>"; };
+		4C1CA06122E0F49900B40FDB /* TextRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionService.swift; sourceTree = "<group>"; };
+		4C1CA06322E0F5BE00B40FDB /* TextRecognitionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionProtocol.swift; sourceTree = "<group>"; };
+		4C1CA06522E0F60A00B40FDB /* RecognitionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionError.swift; sourceTree = "<group>"; };
+		4C1CA06722E0F9D700B40FDB /* ScanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanModel.swift; sourceTree = "<group>"; };
+		4C1CA06922E0FB8900B40FDB /* ScanModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanModelProtocol.swift; sourceTree = "<group>"; };
+		4C1CA06B22E0FD6100B40FDB /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		4C1CA06D22E0FD7900B40FDB /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		4C1CA07122E0FF9800B40FDB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4C1CA07322E1103000B40FDB /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		4C1CA07922E1938A00B40FDB /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		4C1CA07B22E1955000B40FDB /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		4C1CA07D22E19C1800B40FDB /* Realm+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Extensions.swift"; sourceTree = "<group>"; };
+		4C1CA07F22E19DD900B40FDB /* Tesseract+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tesseract+Extensions.swift"; sourceTree = "<group>"; };
+		4C1CA08122E19F3900B40FDB /* MockDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDatabase.swift; sourceTree = "<group>"; };
+		4C1CA08322E19F4300B40FDB /* MockTessereact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTessereact.swift; sourceTree = "<group>"; };
+		A5C95B1ADCF138F0C567FA5A /* Pods_OCReactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCReactTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AE4EB5A947879946EE0FF5 /* Pods-OCReactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCReactTests.debug.xcconfig"; path = "Target Support Files/Pods-OCReactTests/Pods-OCReactTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1CA02322E0E7EA00B40FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75A52830DF14F9CD55ADB41 /* Pods_OCReact.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1CA03722E0E7EC00B40FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C1D8959AD1DE3B1D03F30D /* Pods_OCReactTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E98C4B6136D7686FC874CE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14F9B36C2846C095F83D745D /* Pods_OCReact.framework */,
+				A5C95B1ADCF138F0C567FA5A /* Pods_OCReactTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C1CA01D22E0E7EA00B40FDB = {
+			isa = PBXGroup;
+			children = (
+				4C1CA02822E0E7EA00B40FDB /* OCReact */,
+				4C1CA03D22E0E7EC00B40FDB /* OCReactTests */,
+				4C1CA02722E0E7EA00B40FDB /* Products */,
+				4F169842B116CE15ECB9F886 /* Pods */,
+				2E98C4B6136D7686FC874CE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1CA02722E0E7EA00B40FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA02622E0E7EA00B40FDB /* OCReact.app */,
+				4C1CA03A22E0E7EC00B40FDB /* OCReactTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1CA02822E0E7EA00B40FDB /* OCReact */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA02922E0E7EA00B40FDB /* AppDelegate.swift */,
+				4C1CA04C22E0E83A00B40FDB /* Other */,
+				4C1CA04B22E0E83000B40FDB /* Feature */,
+				4C1CA04A22E0E82A00B40FDB /* Service */,
+				4C1CA04922E0E82500B40FDB /* Model */,
+				4C1CA03522E0E7EC00B40FDB /* Info.plist */,
+			);
+			path = OCReact;
+			sourceTree = "<group>";
+		};
+		4C1CA03D22E0E7EC00B40FDB /* OCReactTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA08522E1A08A00B40FDB /* Mock */,
+				4C1CA03E22E0E7EC00B40FDB /* OCReactTests.swift */,
+				4C1CA04022E0E7EC00B40FDB /* Info.plist */,
+			);
+			path = OCReactTests;
+			sourceTree = "<group>";
+		};
+		4C1CA04922E0E82500B40FDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA05D22E0E99300B40FDB /* Scan.swift */,
+				4C1CA06722E0F9D700B40FDB /* ScanModel.swift */,
+				4C1CA06922E0FB8900B40FDB /* ScanModelProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C1CA04A22E0E82A00B40FDB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA07122E0FF9800B40FDB /* Service.swift */,
+				4C1CA04F22E0E8C800B40FDB /* DatabaseService.swift */,
+				4C1CA06122E0F49900B40FDB /* TextRecognitionService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4C1CA04B22E0E83000B40FDB /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA04D22E0E85D00B40FDB /* ScanList */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		4C1CA04C22E0E83A00B40FDB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA05C22E0E94500B40FDB /* Utilities */,
+				4C1CA05B22E0E93C00B40FDB /* Extensions */,
+				4C1CA03222E0E7EC00B40FDB /* LaunchScreen.storyboard */,
+				4C1CA03022E0E7EC00B40FDB /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4C1CA04D22E0E85D00B40FDB /* ScanList */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA05122E0E8FA00B40FDB /* ScanListViewController.swift */,
+				4C1CA05322E0E90300B40FDB /* ScanListViewModel.swift */,
+			);
+			path = ScanList;
+			sourceTree = "<group>";
+		};
+		4C1CA05B22E0E93C00B40FDB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA07B22E1955000B40FDB /* UIImage+Extensions.swift */,
+				4C1CA07D22E19C1800B40FDB /* Realm+Extensions.swift */,
+				4C1CA07F22E19DD900B40FDB /* Tesseract+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C1CA05C22E0E94500B40FDB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA07022E0FD8D00B40FDB /* Database */,
+				4C1CA06F22E0FD7D00B40FDB /* TextRecognition */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4C1CA06F22E0FD7D00B40FDB /* TextRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA07922E1938A00B40FDB /* tessdata */,
+				4C1CA05F22E0EB9C00B40FDB /* Tessereact.swift */,
+				4C1CA06322E0F5BE00B40FDB /* TextRecognitionProtocol.swift */,
+				4C1CA06522E0F60A00B40FDB /* RecognitionError.swift */,
+			);
+			path = TextRecognition;
+			sourceTree = "<group>";
+		};
+		4C1CA07022E0FD8D00B40FDB /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA06B22E0FD6100B40FDB /* LocalDatabase.swift */,
+				4C1CA06D22E0FD7900B40FDB /* DatabaseProtocol.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		4C1CA08522E1A08A00B40FDB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA08322E19F4300B40FDB /* MockTessereact.swift */,
+				4C1CA08122E19F3900B40FDB /* MockDatabase.swift */,
+				4C1CA07322E1103000B40FDB /* MockService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		4F169842B116CE15ECB9F886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C04E236464723AC555A8DB5 /* Pods-OCReact.debug.xcconfig */,
+				420632AA7419E220AFEA1B1F /* Pods-OCReact.release.xcconfig */,
+				C1AE4EB5A947879946EE0FF5 /* Pods-OCReactTests.debug.xcconfig */,
+				340669D76AB90DB017BB3AC3 /* Pods-OCReactTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1CA02522E0E7EA00B40FDB /* OCReact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1CA04322E0E7EC00B40FDB /* Build configuration list for PBXNativeTarget "OCReact" */;
+			buildPhases = (
+				168C534A1C52F1B5F6D95711 /* [CP] Check Pods Manifest.lock */,
+				4C1CA02222E0E7EA00B40FDB /* Sources */,
+				4C1CA02322E0E7EA00B40FDB /* Frameworks */,
+				4C1CA02422E0E7EA00B40FDB /* Resources */,
+				513D6B056A3608782B49C7C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCReact;
+			productName = OCReact;
+			productReference = 4C1CA02622E0E7EA00B40FDB /* OCReact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1CA03922E0E7EC00B40FDB /* OCReactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1CA04622E0E7EC00B40FDB /* Build configuration list for PBXNativeTarget "OCReactTests" */;
+			buildPhases = (
+				0E21A823D3006A30388CA0F9 /* [CP] Check Pods Manifest.lock */,
+				4C1CA03622E0E7EC00B40FDB /* Sources */,
+				4C1CA03722E0E7EC00B40FDB /* Frameworks */,
+				4C1CA03822E0E7EC00B40FDB /* Resources */,
+				A6468A000392BA1F2C83D0DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1CA03C22E0E7EC00B40FDB /* PBXTargetDependency */,
+			);
+			name = OCReactTests;
+			productName = OCReactTests;
+			productReference = 4C1CA03A22E0E7EC00B40FDB /* OCReactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1CA01E22E0E7EA00B40FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Konrad Roj";
+				TargetAttributes = {
+					4C1CA02522E0E7EA00B40FDB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4C1CA03922E0E7EC00B40FDB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4C1CA02522E0E7EA00B40FDB;
+					};
+				};
+			};
+			buildConfigurationList = 4C1CA02122E0E7EA00B40FDB /* Build configuration list for PBXProject "OCReact" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1CA01D22E0E7EA00B40FDB;
+			productRefGroup = 4C1CA02722E0E7EA00B40FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1CA02522E0E7EA00B40FDB /* OCReact */,
+				4C1CA03922E0E7EC00B40FDB /* OCReactTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1CA02422E0E7EA00B40FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1CA03422E0E7EC00B40FDB /* LaunchScreen.storyboard in Resources */,
+				4C1CA03122E0E7EC00B40FDB /* Assets.xcassets in Resources */,
+				4C1CA07A22E1938A00B40FDB /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1CA03822E0E7EC00B40FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E21A823D3006A30388CA0F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCReactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		168C534A1C52F1B5F6D95711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCReact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513D6B056A3608782B49C7C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCReact/Pods-OCReact-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCReact/Pods-OCReact-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCReact/Pods-OCReact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6468A000392BA1F2C83D0DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCReactTests/Pods-OCReactTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCReactTests/Pods-OCReactTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCReactTests/Pods-OCReactTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1CA02222E0E7EA00B40FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1CA06222E0F49900B40FDB /* TextRecognitionService.swift in Sources */,
+				4C1CA05222E0E8FA00B40FDB /* ScanListViewController.swift in Sources */,
+				4C1CA06422E0F5BE00B40FDB /* TextRecognitionProtocol.swift in Sources */,
+				4C1CA08022E19DD900B40FDB /* Tesseract+Extensions.swift in Sources */,
+				4C1CA07E22E19C1800B40FDB /* Realm+Extensions.swift in Sources */,
+				4C1CA05E22E0E99300B40FDB /* Scan.swift in Sources */,
+				4C1CA06C22E0FD6100B40FDB /* LocalDatabase.swift in Sources */,
+				4C1CA05022E0E8C800B40FDB /* DatabaseService.swift in Sources */,
+				4C1CA06822E0F9D700B40FDB /* ScanModel.swift in Sources */,
+				4C1CA06E22E0FD7900B40FDB /* DatabaseProtocol.swift in Sources */,
+				4C1CA02A22E0E7EA00B40FDB /* AppDelegate.swift in Sources */,
+				4C1CA05422E0E90300B40FDB /* ScanListViewModel.swift in Sources */,
+				4C1CA07222E0FF9800B40FDB /* Service.swift in Sources */,
+				4C1CA06622E0F60A00B40FDB /* RecognitionError.swift in Sources */,
+				4C1CA06A22E0FB8900B40FDB /* ScanModelProtocol.swift in Sources */,
+				4C1CA06022E0EB9C00B40FDB /* Tessereact.swift in Sources */,
+				4C1CA07C22E1955000B40FDB /* UIImage+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1CA03622E0E7EC00B40FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1CA08422E19F4300B40FDB /* MockTessereact.swift in Sources */,
+				4C1CA03F22E0E7EC00B40FDB /* OCReactTests.swift in Sources */,
+				4C1CA08222E19F3900B40FDB /* MockDatabase.swift in Sources */,
+				4C1CA07422E1103000B40FDB /* MockService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1CA03C22E0E7EC00B40FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1CA02522E0E7EA00B40FDB /* OCReact */;
+			targetProxy = 4C1CA03B22E0E7EC00B40FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1CA03222E0E7EC00B40FDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1CA03322E0E7EC00B40FDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1CA04122E0E7EC00B40FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C1CA04222E0E7EC00B40FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1CA04422E0E7EC00B40FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C04E236464723AC555A8DB5 /* Pods-OCReact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SLFN2KZNPW;
+				INFOPLIST_FILE = OCReact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Konrad-Roj.OCReact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C1CA04522E0E7EC00B40FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420632AA7419E220AFEA1B1F /* Pods-OCReact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SLFN2KZNPW;
+				INFOPLIST_FILE = OCReact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Konrad-Roj.OCReact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C1CA04722E0E7EC00B40FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AE4EB5A947879946EE0FF5 /* Pods-OCReactTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF9778UXH3;
+				INFOPLIST_FILE = OCReactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Konrad-Roj.OCReactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCReact.app/OCReact";
+			};
+			name = Debug;
+		};
+		4C1CA04822E0E7EC00B40FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340669D76AB90DB017BB3AC3 /* Pods-OCReactTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF9778UXH3;
+				INFOPLIST_FILE = OCReactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Konrad-Roj.OCReactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCReact.app/OCReact";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1CA02122E0E7EA00B40FDB /* Build configuration list for PBXProject "OCReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1CA04122E0E7EC00B40FDB /* Debug */,
+				4C1CA04222E0E7EC00B40FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1CA04322E0E7EC00B40FDB /* Build configuration list for PBXNativeTarget "OCReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1CA04422E0E7EC00B40FDB /* Debug */,
+				4C1CA04522E0E7EC00B40FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1CA04622E0E7EC00B40FDB /* Build configuration list for PBXNativeTarget "OCReactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1CA04722E0E7EC00B40FDB /* Debug */,
+				4C1CA04822E0E7EC00B40FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1CA01E22E0E7EA00B40FDB /* Project object */;
+}
