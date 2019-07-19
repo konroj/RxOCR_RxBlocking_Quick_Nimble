@@ -8,6 +8,7 @@
 
 import RxSwift
 
+/* Additional configuration layer */
 class LocalDatabase {
     private let database: Database
     
