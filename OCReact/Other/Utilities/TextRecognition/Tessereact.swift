@@ -8,13 +8,15 @@
 
 import RxSwift
 
-/* So fancy reactive name. */ /* Additional configuration layer */
+/* So fancy active name. */ /* Additional configuration layer */
 final class Tessereact {
     private let recognizer: TextRecognition
     
     init(recognizer: TextRecognition) {
         self.recognizer = recognizer
     }
+    
+    /* Some advanced text filtering? */
     
 }
 

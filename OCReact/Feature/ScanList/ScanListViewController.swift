@@ -75,6 +75,7 @@ private extension ScanListViewController {
         viewModel.add(image: image).subscribe(onCompleted: { [weak self] in
             self?.hideActivityIndicator()
         }) { [weak self] (error) in
+            self?.hideActivityIndicator()
             self?.showError(message: error.localizedDescription) // some localized info
         }
         .disposed(by: bag)
